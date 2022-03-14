@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Return Always 0 (Success/correct
+ * Return: Always 0 (Success/correct
  */
 
 int main(void)
@@ -12,7 +12,7 @@ int main(void)
 
 	for (i = 0; i < 10000; i++)
 	{
-		j = i /100;
+		j = i / 100;
 		k = (i / 10) % 10;
 		l = i % 10;
 
