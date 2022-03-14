@@ -10,7 +10,7 @@ int main(void)
 {
 	int i, j, k;
 
-	i=o;
+	i=0;
 
 	while (i < 100)
 	{
