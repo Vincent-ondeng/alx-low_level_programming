@@ -7,8 +7,8 @@
 int main(void)
 {
 	long int i, x = 1, y = 2, sum = 0;
-	for (i = 0; i < 49; i++)
 	
+	for (i = 0; i < 49; i++)
 	{
 		printf("%ld, ", x);
 		sum = x + y;
