@@ -1,16 +1,15 @@
 #include "main.h"
 /**
- * print_alphabet_x10
- *@void: no arguments
+ * print_alphabet - main Entry point
  *
- * Return: no return value
+ * Return: 0
  */
 void print_alphabet_x10(void)
 {
 	char alphabet[26] = "abcdefghijklmnopqrstuvwxwz";
 	int i, j;
 	i = 0;
-
+	
 	while (i < 10)
 	{
 		j = 0;
