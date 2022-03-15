@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - print first 50 fibonacci
+ * main - print even valued terms
  *
- * Return 0 Always
+ * Return 0 Always (Success/correct)
  */
 int main(void)
 {
