@@ -1,24 +1,23 @@
 #include "main.h"
 /**
- * print_alphabet - main Entry point
+ * print_alphabet_x10 - print alphabet
  *
  * Return: 0
  */
 void print_alphabet_x10(void)
 {
-	char alphabet[26] = "abcdefghijklmnopqrstuvwxwz";
-	int i, j;
-	i = 0;
-	
-	while (i < 10)
+	int alphabet;
+	int count;
+
+	count = 0;
+	while (count < 10)
 	{
-		j = 0;
-		while (j < 26)
+		for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 		{
-			_putchar(alphabet[j]);
-			j++;
+			_putchar(alphabet);
 		}
+
+		count++;
 		_putchar('\n');
-		i++;
 	}
 }
