@@ -32,7 +32,7 @@ int _atoi(char *s)
 			}
 			break;
 		}
-		index++
+		index++;
 	}
 	if (sign < 0)
 		res *= sign;
