@@ -2,7 +2,7 @@
 /**
  * main - print first 50 fibonacci
  *
- * Return 0 Always (Success/correct)
+ * Return: 0 Always (Success/correct)
  */
 int main(void)
 {
