@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - largest prime factor of 612852475143
+ * main - Entry point
  *
- * Reurn: 0
+ * Reurn: Always 0.
  */
 int main(void)
 {
