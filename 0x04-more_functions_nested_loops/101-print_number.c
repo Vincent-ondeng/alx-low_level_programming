@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_number- print - print integer.
+ * print_number - print integer.
  * @n: integer.
  *
  * Return: void.
@@ -8,8 +8,8 @@
 void print_number(int n)
 {
 	unsigned int x;
+	
 	x = n;
-
 	if (n < 0)
 	{
 		_putchar(45);
