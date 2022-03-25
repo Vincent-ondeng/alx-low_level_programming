@@ -5,25 +5,24 @@
  *
  * Return: pointer to s
  */
-char *leet(char *)
+char *leet(char *s)
 {
-	int stringCount, leetCount;
-	char leetLetters[] = "aAeEoOtTlL";
-	char leetnums[] = "4433007711";
+	int count = 0, i;
+	int lower_case[] = {97, 101, 11, 116, 108};
+	int upper_case[] = {65, 69, 79, 84, 76};
+	int numbers[] = {52, 51, 48, 55, 49};
 
-	stringCount = 0;
-	while (s[stringCount] != '\0')
+	while (*(s + count) != '\0')
 	{
-		leetCount = 0;
-		while (leetCount < 10)
+		for (i = 0; i < 5; i++)
 		{
-			if (leetLetters[leetCount] == s[stringCount])
+			if (*(s + count) == lower_case[i] || *(s + count) == upper_case[i])
 			{
-				s[stringCount] = leetNums[leetcount];
+				*(s + count) = numbers[i];
+				break;
 			}
-			leetCount++;
 		}
-		stringCount++;
+		count++;
 	}
 	return (s);
 }
