@@ -5,7 +5,7 @@
  * Return: string
  */
 
-char *cap_string(char *s)
+char *cap_string(char *)
 {
 	int i = 1, j, check;
 	char a[] = {',', ';', '.', '!', '?', '"', '(', ')', '{', '}', '\n', '\t', ' '};
@@ -15,7 +15,7 @@ char *cap_string(char *s)
 
 	while (s[i] != '\0')
 	{
-		if (s[i] > 96v&& s[i] < 123)
+		if (s[i] > 96 && s[i] < 123)
 		{
 			j = 0;
 			check = 0;
