@@ -8,32 +8,14 @@
 
 void reverse_array(int *a, int n)
 {
-	int *start_c, *end_c, c;
-	int i;
+	int i, j, tmp;
 
-	
-	start_c = a;
-	end_c a;
-
-	
-	for (i = 0; i < n - 1; i+=)
-	{
-		emd_c++;
-	}
-	
-	
-	
-	
+	j= n - 1;
 	for (i = 0; i < n / 2; i++)
 	{
-		
-		
-		c = *end_c;
-		*end_c = *star_c;
-		*start_c = c;
-
-		start_c++;
-		end_c--;
+		tmp = a[i];
+		a[i] = a[j];
+		a[j] = tmp;
+		j--;
 	}
-
 }
