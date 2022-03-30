@@ -6,7 +6,7 @@
  * Return: evaluate sqrt
  */
 
-int _evaluate(int i, int n);
+int _evaluate(int i, int n)
 {
 	/*Evaluate function*/
 	if (n == 0 || n == 1)
