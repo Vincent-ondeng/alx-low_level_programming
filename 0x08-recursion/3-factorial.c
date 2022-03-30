@@ -6,10 +6,10 @@
  */
 int factorial(int n)
 {
-	if (n == 0) /*Base condition*/
-		return (1);
-	else if (n < 0) /*Base condition*/
+	if (n < 0)
 		return (-1);
-	else 
-	return (n * factorial(n - 1)); /*Recursive Call*/
+	else if (n == 0)
+		return (1);
+	else
+		return (n * factorial(n - 1));
 }
