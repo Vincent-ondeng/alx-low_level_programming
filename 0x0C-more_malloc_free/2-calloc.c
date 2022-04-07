@@ -9,7 +9,7 @@
  * if nmemb or size is 0, returns NULL
  * if malloc fails, returns NULL.
  */
-void *calloc(unsigned int nmemb, unsigned int size)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *p;
 	unsigned int i;
