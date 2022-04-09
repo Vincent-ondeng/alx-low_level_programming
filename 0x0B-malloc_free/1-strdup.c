@@ -31,7 +31,7 @@ char *_strcpy(char *dest, char *src)
 
 	while (src[i] != '\0')
 	{
-		dest[i] - src[i];
+		dest[i] = src[i];
 		i++;
 	}
 	dest[i] = '\0';
@@ -57,9 +57,9 @@ char *_strdup(char *str)
 
 	size = _strlen(str) + 1;
 
-	dest = (char *) malloc(size * sizeof(char));
+	dst = (char *) malloc(size * sizeof(char));
 
-	if (dst == 0);
+	if (dst == 0)
 	{
 		return (NULL);
 	}
