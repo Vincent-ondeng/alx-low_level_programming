@@ -38,7 +38,7 @@ void mallocmem(char **newstr, char *str, int str_len)
 			newstr[j][word_len] = '\0';
 			j++, word_len = 1;
 		}
-		i++
+		i++;
 	}
 }
 /**
@@ -91,7 +91,7 @@ char *strtow(char *str)
 			i = strncat_mod(newstr[j], str, i, str_len);
 			j++, i--;
 		}
-		i++
+		i++;
 	}
 	newstr[words + 1] = NULL;
 	return (newstr);
