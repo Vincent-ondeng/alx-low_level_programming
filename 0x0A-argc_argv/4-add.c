@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stlib.h>
+#include <ctype.h>
 /**
  * main - adds and prints sum of positive numbers
  * followed by a new line
@@ -9,7 +10,7 @@
  * Return: 0 on success
  * 1 on error
  */
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
 	int count, count2, sum;
 
