@@ -2,10 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - prints the multiplication of two integers
+ * main - prints the multiplication of two integers followed by a new line
  * @argc: argument count
  * @argv: argument vector
- * Return : Always 0 (Success)
+ *
+ * Return: Always 0 (Success)
  * 1 on error.
  */
 int main(int argc, char *argv[])
