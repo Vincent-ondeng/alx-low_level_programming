@@ -14,7 +14,7 @@ int strncat_mod(char *dest, char *src, int i, int str_len)
 	int j;
 
 	for (j = 0; src[i] != ' ' && i < str_len; i++, j++)
-		dest[j] = src [i];
+		dest[j] = src[i];
 	return (i);
 }
 /**
@@ -77,7 +77,7 @@ char **strtow(char *str)
 
 	if (str == NULL || str[0] == '\0')
 		return (NULL);
-	while(*(str + str_len) != '\0')
+	while (*(str + str_len) != '\0')
 		str_len++;
 	words = word_count(str, str_len);
 	if (!words)
