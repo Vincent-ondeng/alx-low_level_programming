@@ -24,7 +24,7 @@ int strncat_mod(char *dest, char *src, int i, int str_len)
  * @str_len: string length
  * Return: void
  */
-void malloc(char **newstr, char *str, int str_len)
+void mallocmem(char **newstr, char *str, int str_len)
 {
 	int i = 0, j = 0, word_len = 1;
 
