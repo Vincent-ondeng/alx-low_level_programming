@@ -82,7 +82,7 @@ char *strtow(char *str)
 	words = word_count(str, str_len);
 	if (!words)
 		return (NULL);
-	newstr = malloc((wordds + 1) * sizeof(char *));
+	newstr = malloc((words + 1) * sizeof(char *));
 	mallocmem(newstr, str, str_len);
 	while (i < str_len)
 	{
