@@ -68,7 +68,7 @@ char *_strcpy(char *dest, char *src)
 	while (src[a] != '\0')
 	{
 		dest[a] = src[a];
-		a++
+		a++;
 	}
 
 	dest[a] = '\0';
