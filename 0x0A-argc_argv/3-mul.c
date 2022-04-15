@@ -6,22 +6,26 @@
  * @argc: argument count
  * @argv: argument vector
  * Return : Always 0 (Success)
+ * 1 on error.
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-	int num1, num2, results;
+	int count, product;
 
-	if (argc != 3)
+	product = 1;
+	if (argc == 3)
+	{
+		for (count = 1; count < argc; count++)
+		{
+			product *= atoi(argv[count]);
+		}
+		printf("%d\n", product);
+	}
+	else
 	{
 		printf("Error\n");
 		return (1);
 	}
-	else
-	{
-		num1 = atoi(argv[1]);
-		num2 = atoi(argv[2]);
-		result = num1 * num2;
-		printf("%d\n", result);
-		return (0);
-	}
+
+	return (0);
 }
