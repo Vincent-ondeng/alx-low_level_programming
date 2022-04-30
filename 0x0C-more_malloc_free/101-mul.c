@@ -60,7 +60,7 @@ char *_initialize_array(char *ar, int lar)
  *
  * Return: length of the number.
  */
-int _checksum(char *argv[], int n)
+int _checknum(char *argv[], int n)
 {
 	int ln;
 
@@ -71,7 +71,7 @@ int _checksum(char *argv[], int n)
 			exit(98);
 		}
 
-	return(ln);
+	return (ln);
 
 }
 
