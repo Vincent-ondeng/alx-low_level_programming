@@ -1,8 +1,3 @@
-/*
- * File: 0-print_list.c
- * Author: Vincent Ondeng
- */
-
 #include "lists.h"
 #include <stdio.h>
 
