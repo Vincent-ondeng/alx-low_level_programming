@@ -30,7 +30,7 @@ int append_text_to_file(const char *filename, char *text_content)
 }
 
 /**
- * _strlen: Returns the length of a string
+ * _strlen - outputs the length of a string
  * @s: String to count
  *
  * Return: String Length
